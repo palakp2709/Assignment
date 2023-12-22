@@ -16,7 +16,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary main-image">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary main-image sticky-top" style="font-size: 0.8rem;">
         <div class="container-fluid ">
            
             <a href="#" class="navbar-brand"></a>
@@ -28,14 +28,14 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <a class="navbar-brand collapse navbar-collapse " href="#">
-                    <img src="assest/whole.png" alt="Bootstrap" width="100" height="24">
+                    <img src="assest/whole.png" alt="Bootstrap" width="100" height="20">
                 </a>
                 <form class="d-flex w-50" type="search bg-secondary-subtle ">
                     <div class="input-group collapse navbar-collapse d-flex justify-content-around">
-                        <button class="btn btn-default  bg-secondary-subtle rounded-start-pill" type="submit">
+                        <button class="btn btn-default  bg-secondary-subtle rounded-start-pill" type="submit" style="font-size: 0.8rem;">
                             <i class="bi bi-search"></i>
                         </button>
-                        <input class="form-control me-2  fs-6 bg-secondary-subtle rounded-end-pill" 
+                        <input class="form-control  bg-secondary-subtle rounded-end-pill w-50" style="font-size: 0.8rem;"
                         type="search" placeholder="Search for your favorite groups in ATG">
                     </div>
                 </form>
@@ -82,72 +82,76 @@
                
        <!-- options -->
         <div class="container mt-4 border-bottom d-lg-block d-none " > 
+            <div class="row">
+                <div class="col-8 d-flex">
+                    <p class="items font ">All Posts(32)</p>
+                    <p class="items font ms-3 ">Article</p>
+                    <p class="items font ms-3  ">Event</p>
+                    <p class="items font ms-3 ">Education</p>
+                    <p class="items font ms-3 ">Job</p>   
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <a class="btn bg-secondary-subtle text-dark fw-bold font button1 " >
+                        Write a Post
+                        <i class="bi bi-caret-down-fill"></i>
+                    </a>
+                    <a class="btn btn-primary  fw-bold font button2 ">
+                        +
+                        <i class="bi bi-people-fill"></i>
+                        Join Group
+                    </a>
+                </div>
+            </div>
             
-            <div class="d-flex">
-                <p class="items font ">All Posts(32)</p>
-                <p class="items font ms-3 ">Article</p>
-                <p class="items font ms-3  ">Event</p>
-                <p class="items font ms-3 ">Education</p>
-                <p class="items font ms-3 ">Job</p>      
-                <a class="btn bg-secondary-subtle text-dark fw-bold font button1 " >
-                    Write a Post
-                    <i class="bi bi-caret-down-fill"></i>
-                </a>
-                <a class="btn btn-primary  fw-bold font button2 ">
-                    +
-                    <i class="bi bi-people-fill"></i>
-                    Join Group
-                </a>
-            </div>       
         </div>
       
         <!-- cards -->
-        <div class="container mt-2">
-            <div class="row ">
-                <div class="col-8 main-card">
+        <div class="container ">
+            <div class="row d-flex">
+                <div class="col-8 main-card ">
                    <!-- card1 -->
-                    <div class="card " style="width: 40rem;">
+                    <div class="card " style="width: 18rem;">
                         <img src="assest/Rectangle 5.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h6 class="card-title ">
                                 ✍️ Article
-                            </h5>
+                            </h6>
 
-                            <div class="d-flex justify-content-between">
-                                <p class="card-text fs-4 fw-bold">
+                            <div class="d-flex justify-content-between" style="font-size: 0.6rem;">
+                                <p class="card-text fw-bold" >
                                     What if famous brands had regular fonts? Meet RegulaBrands!
                                 </p>
                                 <i class="bi bi-three-dots" ></i>
                             </div>
 
-                            <p class="fs-6">
+                            <p class="fw-light" style="font-size: 0.4rem;">
                                 I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
                             </p>
                             
                             <div class=" profile d-flex d-md-block d-none position-relative">
                                 <div class=" d-flex ">
                                     <img src="assest/Rectangle 3.png" alt="profile_pic">
-                                    <p class="fs-5 fw-bold ms-2">Sarthak Kamra</p>
+                                    <p class="fw-bold ms-2 mt-2" style="font-size: 0.6rem;">Sarthak Kamra</p>
                                 </div>
                                 <div class=" d-flex position-absolute top-0 end-0">
-                                    <i class="bi bi-eye fs-6"></i>
-                                    <p class="fs-6  ms-2">1.4k views</p>
+                                    <i class="bi bi-eye mt-2" style="font-size: 0.6rem;"></i>
+                                    <p class=" ms-2 mt-2" style="font-size: 0.6rem;">1.4k views</p>
        
-                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle " style="height: 2rem;"></i>
+                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle mt-2" style="height: 0.8rem; font-size: 0.6rem;"></i>
                                 </div>
                             </div>
 
-                            <div class="d-flex d-md-none ">
+                            <div class="d-flex d-md-none justify-content-between">
                                 <div class="d-flex">
                                     <img src="assest/Rectangle 3.png" alt="profile_pic">
                     
-                                        <p class="fs-5 fw-bold ms-2">Sarthak Kamra </p>
-                                      <p class="views">1.4k views</p>     
+                                        <p class=" fw-bold ms-2 mt-2"  style="font-size: 0.6rem;">Sarthak Kamra </p>
+                                      <p class="views"  style="font-size: 0.6rem;">1.4k views</p>     
                                 </div>
                                
-                                <a class="btn bg-secondary-subtle button-hidden  fs-5 d-flex">
+                                <a class="btn bg-secondary-subtle button-hidden  d-flex" style="font-size: 0.6rem ; height: 2rem;">
                                     <i class="bi bi-share-fill " ></i>
-                                     <p class="ms-2">Share</p>
+                                     <p class="ms-2" >Share</p>
                                 </a>
                             </div>
                           
@@ -155,106 +159,105 @@
                     </div>
                     
                      <!-- card2 -->
-                    <div class="card mt-4" style="width: 40rem;">
+                     <div class="card mt-2" style="width: 18rem;">
                         <img src="assest/card2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h6 class="card-title ">
                                 🔬️ Education
-                            </h5>
+                            </h6>
 
-                            <div class="d-flex justify-content-between">
-                                <p class="card-text fs-4 fw-bold">
+                            <div class="d-flex justify-content-between" style="font-size: 0.6rem;">
+                                <p class="card-text fw-bold" >
                                     Tax Benefits for Investment under National Pension Scheme launched by Government
                                 </p>
                                 <i class="bi bi-three-dots" ></i>
                             </div>
 
-                            <p class="fs-6">
+                            <p class="fw-light" style="font-size: 0.4rem;">
                                 I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
                             </p>
                             
-                            <div class=" profile d-flex  justify-content-between d-md-block d-none position-relative">
-                                <div class="d-flex">
+                            <div class=" profile d-flex d-md-block d-none position-relative">
+                                <div class=" d-flex ">
                                     <img src="assest/img1.png" alt="profile_pic">
-                                    <p class="fs-5 fw-bold ms-2">Sarah West</p>
+                                    <p class="fw-bold ms-2 mt-2" style="font-size: 0.6rem;">Sarthak Kamra</p>
                                 </div>
-                                <div class="d-flex position-absolute top-0 end-0">
-                                    <i class="bi bi-eye fs-6"></i>
-                                    <p class="fs-6  ms-2">1.4k views</p>
+                                <div class=" d-flex position-absolute top-0 end-0">
+                                    <i class="bi bi-eye mt-2" style="font-size: 0.6rem;"></i>
+                                    <p class=" ms-2 mt-2" style="font-size: 0.6rem;">1.4k views</p>
        
-                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle " style="height: 2rem;"></i>
+                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle mt-2" style="height: 0.8rem; font-size: 0.6rem;"></i>
                                 </div>
                             </div>
 
-                            <div class="d-flex   d-md-none">
+                            <div class="d-flex d-md-none justify-content-between">
                                 <div class="d-flex">
                                     <img src="assest/img1.png" alt="profile_pic">
                     
-                                        <p class="fs-5 fw-bold ms-2">Sarah West </p>
-                                      <p class="views">4.8k views</p>     
+                                        <p class=" fw-bold ms-2 mt-2"  style="font-size: 0.6rem;">Sarthak Kamra </p>
+                                      <p class="views"  style="font-size: 0.6rem;">1.4k views</p>     
                                 </div>
                                
-                                <a class="btn bg-secondary-subtle button-hidden button-hidden2 fs-5 d-flex">
-                                    <i class="bi bi-share-fill  " ></i>
-                                     <p class="ms-2">Share</p>
+                                <a class="btn bg-secondary-subtle button-hidden  d-flex" style="font-size: 0.6rem ; height: 2rem;">
+                                    <i class="bi bi-share-fill " ></i>
+                                     <p class="ms-2" >Share</p>
                                 </a>
                             </div>
                           
                         </div>
                     </div>
-
                     <!-- card3 -->
-                    <div class="card mt-4" style="width: 40rem;">
+                    <div class="card mt-2" style="width: 18rem;">
                         <img src="assest/img2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h6 class="card-title">
                                 🗓️ Meetup
-                            </h5>
+                            </h6>
 
-                            <div class="d-flex justify-content-between">
-                                <p class="card-text fs-4 fw-bold">
+                            <div class="d-flex justify-content-between" style="font-size: 0.6rem;">
+                                <p class="card-text fw-bold" >
                                     Finance & Investment Elite Social Mixer @Lujiazui
                                 </p>
                                 <i class="bi bi-three-dots" ></i>
                             </div>
 
-                            <div class="date d-flex">
-                                <div class="d-flex">
-                                    <i class="bi bi-calendar-event fw-bold fs-6"></i>
-                                    <p class="ms-2 fs-6 fw-bolder">Fri, 12 Oct, 2018</p>
+                            <div class="date d-flex" style="font-size: 0.6rem;" >
+                                <div class="d-flex" >
+                                    <i class="bi bi-calendar-event fw-bold "></i>
+                                    <p class="ms-2 fw-bold">Fri, 12 Oct, 2018</p>
                                 </div>
-                                <div class="d-flex ms-5">
-                                    <i class="bi bi-geo-alt fw-bold fs-6"></i>
-                                    <p class="fw-bolder fs-6 ms-2">Ahmedabad</p>
+                                <div class="d-flex ms-4">
+                                    <i class="bi bi-geo-alt fw-bold "></i>
+                                    <p class="fw-bolder  ms-2">Ahmedabad</p>
                                 </div>
                             </div>
                             
-                            <button type="button" class="btn btn-outline-secondary w-100 button3">View Website</button>
+                            <button type="button" class="btn btn-outline-secondary w-100 button3" style="font-size: 0.6rem;">View Website</button>
                             
-                            <div class=" profile d-flex  justify-content-between mt-4 d-md-block d-none position-relative">
-                                <div class="d-flex">
+                            <div class=" profile d-flex d-md-block d-none position-relative">
+                                <div class=" d-flex ">
                                     <img src="assest/img3.png" alt="profile_pic">
-                                    <p class="fs-5 fw-bold ms-2">Ronal Jones</p>
+                                    <p class="fw-bold ms-2 mt-2" style="font-size: 0.6rem;">Ronal Jones</p>
                                 </div>
-                                <div class="d-flex position-absolute top-0 end-0">
-                                    <i class="bi bi-eye fs-6"></i>
-                                    <p class="fs-6  ms-2">1.4k views</p>
+                                <div class=" d-flex position-absolute top-0 end-0">
+                                    <i class="bi bi-eye mt-2" style="font-size: 0.6rem;"></i>
+                                    <p class=" ms-2 mt-2" style="font-size: 0.6rem;">1.4k views</p>
        
-                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle " style="height: 2rem;"></i>
+                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle mt-2" style="height: 0.8rem; font-size: 0.6rem;"></i>
                                 </div>
                             </div>
 
-                            <div class="d-flex  d-md-none mt-4">
+                            <div class="d-flex d-md-none justify-content-between mt-2">
                                 <div class="d-flex">
                                     <img src="assest/img3.png" alt="profile_pic">
                     
-                                        <p class="fs-5 fw-bold ms-2">Ronal Jones</p>
-                                      <p class="views">800 views</p>     
+                                        <p class=" fw-bold ms-2 mt-2"  style="font-size: 0.6rem;">Ronal Jones</p>
+                                      <p class="views"  style="font-size: 0.6rem;">800 views</p>     
                                 </div>
                                
-                                <a class="btn bg-secondary-subtle button-hidden button-hidden2 fs-5 d-flex">
+                                <a class="btn bg-secondary-subtle button-hidden  d-flex" style="font-size: 0.6rem ; height: 2rem;">
                                     <i class="bi bi-share-fill " ></i>
-                                     <p class="ms-2">Share</p>
+                                     <p class="ms-2" >Share</p>
                                 </a>
                             </div>
                           
@@ -262,77 +265,77 @@
                     </div>
 
                     <!-- card4 -->
-                    <div class="card mt-4" style="width: 40rem;">
+                    <div class="card mt-2" style="width: 18rem;">
                        
                         <div class="card-body">
-                            <h5 class="card-title">
+                            <h6 class="card-title">
                                 💼️ Job
-                            </h5>
+                            </h6>
 
-                            <div class="d-flex justify-content-between">
-                                <p class="card-text fs-4 fw-bold">
+                            <div class="d-flex justify-content-between" style="font-size: 0.6rem;">
+                                <p class="card-text fw-bold" >
                                     Software Developer
                                 </p>
                                 <i class="bi bi-three-dots" ></i>
                             </div>
 
-                            <div class="date d-flex">
-                                <div class="d-flex">
-                                    <i class="bi bi-bag fs-6 fw-bold"></i>
-                                    <p class="ms-2 fs-6 fw-bolder">Innovaccer Analytics Private Ltd.</p>
+                            <div class="date d-flex" style="font-size: 0.6rem;" >
+                                <div class="d-flex" >
+                                    <i class="bi bi-calendar-event fw-bold "></i>
+                                    <p class="ms-1 fw-bold">Innovaccer Analytics Private Ltd.</p>
                                 </div>
-                                <div class="d-flex ms-5">
-                                    <i class="bi bi-geo-alt fw-bold fs-6"></i>
-                                    <p class="fw-bolder fs-6 ms-2">Noida, India</p>
+                                <div class="d-flex ms-3">
+                                    <i class="bi bi-geo-alt fw-bold "></i>
+                                    <p class="fw-bolder  ms-1">Noida, India</p>
                                 </div>
                             </div>
                             
-                            <button type="button" class="btn btn-outline-secondary w-100 button4">Apply on Timesjobs</button>
+                            <button type="button" class="btn btn-outline-secondary w-100 button3" 
+                            style="font-size: 0.6rem; ">Apply on Timesjobs</button>
                             
-                            <div class=" profile d-flex  justify-content-between mt-4 d-md-block d-none position-relative">
-                                <div class="d-flex">
+                            <div class=" profile d-flex d-md-block d-none position-relative">
+                                <div class=" d-flex ">
                                     <img src="assest/img4.png" alt="profile_pic">
-                                    <p class="fs-5 fw-bold ms-2">Joseph Gray</p>
+                                    <p class="fw-bold ms-2 mt-2" style="font-size: 0.6rem;">Joseph Gray</p>
                                 </div>
-                                <div class="d-flex position-absolute top-0 end-0">
-                                    <i class="bi bi-eye fs-6"></i>
-                                    <p class="fs-6  ms-2">1.4k views</p>
+                                <div class=" d-flex position-absolute top-0 end-0">
+                                    <i class="bi bi-eye mt-2" style="font-size: 0.6rem;"></i>
+                                    <p class=" ms-2 mt-2" style="font-size: 0.6rem;">1.4k views</p>
        
-                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle " style="height: 2rem;"></i>
+                                    <i class="bi bi-share-fill ms-4 bg-secondary-subtle mt-2" style="height: 0.8rem; font-size: 0.6rem;"></i>
                                 </div>
                             </div>
 
-                            <div class="d-flex  d-md-none mt-4">
+                            <div class="d-flex d-md-none justify-content-between mt-2">
                                 <div class="d-flex">
                                     <img src="assest/img4.png" alt="profile_pic">
                     
-                                        <p class="fs-5 fw-bold ms-2">Joseph Gray</p>
-                                      <p class="views">1.7k views</p>     
+                                        <p class=" fw-bold ms-2 mt-2"  style="font-size: 0.6rem;">Joseph Gray</p>
+                                      <p class="views"  style="font-size: 0.6rem;">1.7k views</p>     
                                 </div>
                                
-                                <a class="btn bg-secondary-subtle button-hidden button-hidden2 fs-5 d-flex">
-                                    <i class="bi bi-share-fill  " ></i>
-                                     <p class="ms-2">Share</p>
+                                <a class="btn bg-secondary-subtle button-hidden  d-flex" style="font-size: 0.6rem ; height: 2rem;">
+                                    <i class="bi bi-share-fill " ></i>
+                                     <p class="ms-2" >Share</p>
                                 </a>
                             </div>
                           
                         </div>
                     </div>
-                    
                 </div>
 
-                <div class="col-4 d-lg-block d-none">
+                <div class="col-4 d-lg-block d-none " style="font-size: 0.6rem;">
                     <div class="d-flex mt-5 justify-content-between">
                         <div class="d-flex">
-                            <i class="bi bi-geo-alt fw-bold fs-4 "></i>
-                            <span class="fs-4 fw-bold ms-2">Noida, India</span>
+                            <i class="bi bi-geo-alt fw-bold  "></i>
+                            <span class=" fw-bold ms-2">Noida, India</span>
                         </div>
-                        <i class="bi bi-pencil-fill fs-5" sty></i>
+                        <i class="bi bi-pencil-fill " ></i>
               
                     </div>
-                    <div class="d-flex mt-4">
-                        <i class="bi bi-exclamation-circle fs-5"></i>
-                        <p class="fs-6  ms-2">
+                    <div class="d-flex mt-4 ">
+                        <i class="bi bi-exclamation-circle "></i>
+                        <p class="  ms-2">
                             Your location will help us serve better 
                             and extend a personalised experience.
                         </p>
