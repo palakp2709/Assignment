@@ -1,0 +1,61 @@
+.body{
+  margin: 0;
+}
+
+.items{
+  font-weight:600;
+  color:#5C5C5C;
+  padding-top: 1rem;
+
+}
+
+.items:hover{
+color: black;
+}
+
+.font{
+font-size: 1vw;
+}
+
+.button1{
+margin-left: 20rem;
+height: 3rem;
+}
+
+.button2{
+height: 3rem;
+margin-left: 4rem;
+}
+
+.button3{
+color: #E56135;
+}
+
+.button4{
+color: #02B875;
+}
+
+.button-hidden{
+margin-left: 18rem;
+height: 3rem;
+}
+
+.views{
+position: absolute;
+left: 4.8rem;
+bottom: 0.1px;
+    } 
+
+.button-hidden2{
+margin-left: 20rem;
+}
+
+
+    
+@media screen and (max-width : 576px){
+.main-image{
+    width:40rem;
+    
+}
+
+} 
